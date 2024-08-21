@@ -16,9 +16,11 @@ aside img {
     width: 80px;
     float: left;
 }
-.li_img{
+
+.li_img {
     width: 30px;
 }
+
 aside .logo {
     font-size: 40px;
     margin-left: 10px;
@@ -50,17 +52,33 @@ aside ul a {
     transform: scale(1.05);
 }
 
-main .features{
+main .features {
     float: left;
     color: white;
     margin-top: 100px;
     text-align: center;
     width: 75%;
 }
-main .features h1{
+
+main .features h1 {
     font-size: 50px;
 }
-main .features p{
+
+main .features p {
     max-width: 400px;
     margin: 20px auto;
+}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}
+
+form {
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
 }

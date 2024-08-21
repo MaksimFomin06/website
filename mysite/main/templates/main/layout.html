@@ -18,7 +18,9 @@
         <ul>
             <a href="{% url 'home' %}"><li><img src="{% static 'main/images/house.png' %}" alt="" class="li_img"> Главная</li></a>
             <a href="{% url 'about' %}"><li><img src="{% static 'main/images/information.png' %}" alt="" class="li_img"> Про меня</li></a>
+            <a href="{% url 'news_home' %}"><li><img src="{% static 'main/images/information.png' %}" alt="" class="li_img"> Новости</li></a>
             <a href=""><li><img src="{% static 'main/images/phone.png' %}" alt="" class="li_img"> Контакты</li></a>
+            <a href="{% url 'create' %}"><li><img src="{% static 'main/images/phone.png' %}" alt="" class="li_img"> Добавить запись</li></a>
         </ul>
     </aside>
     <main>
